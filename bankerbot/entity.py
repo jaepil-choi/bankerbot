@@ -73,6 +73,8 @@ class CorpEtcPublic(Corporate):
     Args:
         Corporate ([type]): [description]
     """    
+    def __init__(self) -> None:
+        super().__init__()
 
 ### 고객 - 예금거래 상대방 - 임의단체
 
@@ -82,6 +84,8 @@ class VolCooperative(VoluntaryAssociation):
     Args:
         VoluntaryAssociation ([type]): [description]
     """    
+    def __init__(self) -> None:
+        super().__init__()
 
 class VolFoundation(VoluntaryAssociation):
     """권리능력 없는 사단, 재단
@@ -89,7 +93,8 @@ class VolFoundation(VoluntaryAssociation):
     Args:
         VoluntaryAssociation ([type]): [description]
     """    
-
+    def __init__(self) -> None:
+        super().__init__()
 # 행원
 
 class Banker:
